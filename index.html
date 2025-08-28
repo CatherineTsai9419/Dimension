@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--採用RWD @media寫法-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--插入字體-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--引用css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--引用js-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    
+
+    <title>Dimension</title>
+</head>
+<body>
+    <div id="container" class="m_container">
+        <!--導覽列-->
+        <div class="nav">
+            <nav class="navbar navbar-expand-lg navbar-dark BgDark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html">Catherine Tsai</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./works.html">Works</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                      </li>
+                
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <!--首頁標題-->
+        <div class="pt animate__animated animate__zoomIn" id="pt">
+            <p class="Font_Montserrat name " id="name">Catherine Tsai</p>
+            <img src="./img/portfolio_title.png" class="portfolio_title " id="portfolio_title">
+            <p class="next_hint floating">click here!</p>
+            <input onclick="chagenext()" type="image" src="./img/next_page.png"  id="title_next_btn"/>
+
+           
+        </div>
+        <!--首頁碎塊-->
+        <img src="./img/block01.png" class="block01" id="block01">
+        <img src="./img/block02.png" class="block02" id="block02">
+        <img src="./img/block03.png" class="block03" id="block03">
+        <img src="./img/block04.png" class="block04" id="block04">
+        <img src="./img/block05.png" class="block05" id="block05">
+        <!--About-->
+        <div class="about" id="about">
+                <img src="./img/w_self(2b)@2x.png" class="self_picture animate__animated" id="self_picture">
+
+                <div class="f_container animate__animated" id="f_container">
+                    <div class="word_about" id="word_about">
+                        <div>
+                            Hello, I am Catherine!
+                        </div>
+                        <div class="static-text" style="display: flex;">
+                            <div>
+                                A 
+                            </div>
+                            <div class="dynamic-text-wrapper" id="dynamic-text-wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="btn_about">
+                        <div class="s_btn_about">
+                            <div class="arrow_about">→</div>
+                            <div class="shape-ex11" onclick="location.href=
+                            './works.html'"><p>Works</p></div>
+                        </div>
+                        
+                        <div class="s_btn_about">
+                            <div class="arrow_about">→</div>
+                            <div class="shape-ex12" onclick="location.href=
+                            './about.html'"><p>About</p></div>
+                        </div>
+             
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--滑鼠滾動block放大js-->
+    <script>   
+        //偵測到block display變成none，就讓title置入淡出動畫，讓下一層物件出現
+        var portfolio_title = document.getElementById("pt");
+        const container=document.getElementById("container");
+        //block01                            
+        const block01 = document.getElementById("block01");
+        var Bwidth=40;
+        var Bopacity=100;
+        var Bleft=0;
+        var Btop=0;
+        //block02
+        const block02 = document.getElementById("block02");
+        var Bwidth02=40;
+        var Bopacity02=100;
+        var Btop02=0;
+        var Bleft02=27;
+        //block03
+        const block03 = document.getElementById("block03");
+        var Bwidth03=40;
+        var Bopacity03=100;
+        var Btop03=0;
+        var Bright03=0;
+        //block04
+        const block04 = document.getElementById("block04");
+        var Bwidth04=65;
+        var Bopacity04=100;
+        var Bbottom04=0;
+        var Bleft04=0;
+        //block05
+        const block05 = document.getElementById("block05");
+        var Bwidth05=45;
+        var Bopacity05=100;
+        var Bbottom05=0;
+        var Bright05=0;
+
+        //input button
+        function chagenext() {
+            block01.style.display="none";
+            block02.style.display="none";
+            block03.style.display="none";
+            block04.style.display="none";
+            block05.style.display="none";
+            portfolio_title.classList.remove("animate__zoomIn");
+            portfolio_title.classList.add("animate__fadeOut");
+            self_picture.style.display="block";
+            self_picture.classList.remove("animate__fadeOut");
+            self_picture.classList.add("animate__flipInY");
+            f_container.style.display="flex";
+            f_container.classList.remove("animate__fadeOut");
+            f_container.classList.add("animate__flipInX");
+            pt.style.display="none";
+
+        };
+
+        //block01                            
+        block01.style.width = Bwidth+"%";
+        block01.style.opacity=Bopacity+"%";
+        block01.style.left=Bleft;
+        block01.style.top=Btop;
+
+        //block02
+        block02.style.width = Bwidth02+"%";
+        block02.style.opacity=Bopacity02+"%";
+        block02.style.top=Btop02;
+        block02.style.left=Bleft02+"%";
+
+        //block03
+        block03.style.width = Bwidth03+"%";
+        block03.style.opacity=Bopacity03+"%";
+        block03.style.top=Btop03;
+        block03.style.right=Bright03+"%";
+
+        //block04
+        block04.style.width = Bwidth04+"%";
+        block04.style.opacity=Bopacity04+"%";
+        block04.style.bottom=Bbottom04;
+        block04.style.left=Bleft04+"%";
+
+        //block05
+        block05.style.width = Bwidth05+"%";
+        block05.style.opacity=Bopacity05+"%";
+        block05.style.bottom=Bbottom05;
+        block05.style.right=Bright05+"%";
+        //wheelDelta 属性值是一个抽象值，表示滚轮转动的距离。如果滚轮向用户旋转，则该值为正，否则为负。
+        container.onmouseover = () =>{
+            container.onmousewheel=(b)=>{
+                b.wheelDelta < 0 ? Bwidth=Bwidth+5:Bwidth=Bwidth-5;
+                b.wheelDelta < 0 ? Bopacity=Bopacity-10:Bopacity=Bopacity+10;
+                b.wheelDelta < 0 ? Bleft=Bleft-100:Bleft=Bleft+100;
+                b.wheelDelta < 0 ? Btop=Btop-50:Btop=Btop+50;
+                if (Bwidth>=40 & Bwidth<80){
+                    block01.style.width = Bwidth+"%";
+                    block01.style.opacity=Bopacity+"%";
+                    block01.style.left=Bleft+"px";
+                    block01.style.top=Btop+"px";
+
+                };
+                if(Bopacity<20){
+                    block01.style.display="none";
+                }else{
+                    block01.style.display="block";
+                };
+                //block02
+                b.wheelDelta < 0 ? Bwidth02=Bwidth02+5:Bwidth02=Bwidth02-5;
+                b.wheelDelta < 0 ? Bopacity02=Bopacity02-10:Bopacity02=Bopacity02+10;
+                b.wheelDelta < 0 ? Btop02=Btop02-50:Btop02=Btop02+50;
+                b.wheelDelta < 0 ? Bleft02=Bleft02-3:Bleft02=Bleft02+3;
+                if (Bwidth02>=40 & Bwidth02<80){
+                    block02.style.width = Bwidth02+"%";
+                    block02.style.opacity=Bopacity02+"%";
+                    block02.style.top=Btop02+"px";
+                    block02.style.left=Bleft02+"%";
+                };
+                if(Bopacity02<20){
+                    block02.style.display="none";
+                }else{
+                    block02.style.display="block";
+                };
+                //block03
+                b.wheelDelta < 0 ? Bwidth03=Bwidth03+5:Bwidth03=Bwidth03-5;
+                b.wheelDelta < 0 ? Bopacity03=Bopacity03-10:Bopacity03=Bopacity03+10;
+                b.wheelDelta < 0 ? Btop03=Btop03-50:Btop03=Btop03+50;
+                b.wheelDelta < 0 ? Bright03=Bright03-5:Bright03=Bright03+5;
+                if (Bwidth03>=40 & Bwidth03<80){
+                    block03.style.width = Bwidth03+"%";
+                    block03.style.opacity=Bopacity03+"%";
+                    block03.style.top=Btop03+"px";
+                    block03.style.right=Bright03+"%";
+                };
+                if(Bopacity03<20){
+                    block03.style.display="none";
+                }else{
+                    block03.style.display="block";
+                };
+                //block04
+                b.wheelDelta < 0 ? Bwidth04=Bwidth04+5:Bwidth04=Bwidth04-5;
+                b.wheelDelta < 0 ? Bopacity04=Bopacity04-10:Bopacity04=Bopacity04+10;
+                b.wheelDelta < 0 ? Bbottom04=Bbottom04-50:Bbottom04=Bbottom04+50;
+                b.wheelDelta < 0 ? Bleft04=Bleft04-5:Bleft04=Bleft04+5;
+                if (Bwidth04>=65 & Bwidth04<120){
+                    block04.style.width = Bwidth04+"%";
+                    block04.style.opacity=Bopacity04+"%";
+                    block04.style.bottom=Bbottom04+"px";
+                    block04.style.left=Bleft04+"%";
+                };
+                if(Bopacity04<20){
+                    block04.style.display="none";
+                }else{
+                    block04.style.display="block";
+                };
+                //block05
+                b.wheelDelta < 0 ? Bwidth05=Bwidth05+5:Bwidth05=Bwidth05-5;
+                b.wheelDelta < 0 ? Bopacity05=Bopacity05-10:Bopacity05=Bopacity05+10;
+                b.wheelDelta < 0 ? Bbottom05=Bbottom05-50:Bbottom05=Bbottom05+50;
+                b.wheelDelta < 0 ? Bright05=Bright05-5:Bright05=Bright05+5;
+
+                if (Bwidth05>=45 & Bwidth05<100){
+                    block05.style.width = Bwidth05+"%";
+                    block05.style.opacity=Bopacity05+"%";
+                    block05.style.bottom=Bbottom05+"px";
+                    block05.style.right=Bright05+"%";
+                };
+
+                if(Bopacity05<80){
+                    portfolio_title.classList.remove("animate__zoomIn");
+                    portfolio_title.classList.add("animate__fadeOut");
+                    
+                }else{
+                    portfolio_title.classList.add("animate__zoomIn");
+                    portfolio_title.classList.remove("animate__fadeOut");
+                    
+                }
+
+                if(Bopacity05<20){
+                    block05.style.display="none";
+ 
+                    self_picture.style.display="block";
+                    self_picture.classList.remove("animate__fadeOut");
+                    self_picture.classList.add("animate__flipInY");
+                    f_container.style.display="flex";
+                    f_container.classList.remove("animate__fadeOut");
+                    f_container.classList.add("animate__flipInX");
+                    pt.style.display="none";
+
+                }
+                else{
+                    block05.style.display="block";
+                    self_picture.classList.remove("animate__flipInY");
+                    self_picture.classList.add("animate__fadeOut");
+                    f_container.classList.remove("animate__flipInX");
+                    f_container.classList.add("animate__fadeOut");
+                    pt.style.display="flex";
+                   
+                };
+
+            }
+        };
+        
+       
+        
+
+
+        //打字機動畫特效
+        var app = document.getElementById('dynamic-text-wrapper');
+
+        var typewriter = new Typewriter(app, {
+            loop: true
+            });
+        
+        
+
+    typewriter.typeString('Designer.')
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString('Researcher.')
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString('<span style="color: #ffe877;">Podcaster!<span>')
+        .pauseFor(2500)
+        .start();
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    
+
+    
+</body>
+</html>
