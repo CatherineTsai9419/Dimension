@@ -455,7 +455,7 @@ transform: scale(1);
   align-items: center;
 }
 .display_2_04 img{
-  width: 45vw;
+  width: 50%;
 }
 
 .display_2_04_intro{
@@ -467,7 +467,29 @@ transform: scale(1);
 }
 .display_2_04_intro img{
   margin-top: 3vw;
-  width: 33vw;
+  width: 100%;
+}
+
+/*第二種版型款式-自訂款05*/
+.display_2_05{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.display_2_05 img{
+  width: 40vw;
+}
+
+.display_2_05_intro{
+  margin-right: 5vw;
+}
+.display_2_05_intro div{
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+}
+
+.display_2_05_intro img{
+  width: 100%;
 }
 
 
@@ -1024,6 +1046,25 @@ transform: scale(1);
     }
     .display_reverse{
       flex-direction: column-reverse;
+    }
+
+     /*第二種版型款式-自訂款05*/
+    .display_2_05{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .display_2_05 img{
+      width: 100%;
+      padding-top: 6vw;
+    }
+
+    .display_2_05_intro{
+      margin-right: 5vw;
+    }
+    .display_2_05_intro div{
+      padding-top: 2vw;
+      padding-bottom: 1vw;
     }
 
     /*影片展示版型*/
