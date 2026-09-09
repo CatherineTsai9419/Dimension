@@ -10,7 +10,7 @@
     <!--插入字體-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <!--引用css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/template.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--引用js-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>TakeCareBus Web Application</title>
 </head>
 <body>
@@ -42,14 +42,14 @@
                    <li class="nav-item">
                     <a class="nav-link" href="https://drive.google.com/file/d/1_uqiI6tEZQ2dOonY4U6iFj4lLUOijayr/view?usp=sharing" target="_blank">Resume</a>
                   </li>
-                 
+
                 </ul>
               </div>
             </div>
           </nav>
         </div>
-        
-      <img class="banner_pic" src="./img/TakeCareBus_banner.png" alt="" data-aos="zoom-out" data-aos-duration="1400">
+
+      <img class="banner_pic" src="./img/optimized/TakeCareBus_banner.png.webp" alt="" data-aos="zoom-out" data-aos-duration="1400" fetchpriority="high" style="aspect-ratio: auto 4320 / 1769;">
        <div class="container">
         <!--專案介紹框-->
         <div class="short_intro">
@@ -76,15 +76,15 @@
         </div>
         </div>
         <!--手機版本專用分隔圖-->
-        <div class="mobile_only"><img src="./img/three_factors_2@2x.png" alt=""></div>
+        <div class="mobile_only"><img src="./img/three_factors_2@2x.png" alt="" loading="lazy" decoding="async" style="aspect-ratio: auto 510 / 101;"></div>
 
         <!--第二種版型款式-自訂款04-->
         <section class="display_2_04">
-            <img src="./img/TakeCareBus_pic01.png" alt="">
+            <img src="./img/optimized/TakeCareBus_pic01.png.webp" alt="" loading="lazy" decoding="async" style="aspect-ratio: auto 1720 / 1877;">
             <div class="display_2_04_intro">
               <p class="display_2_01_title" style="color: white;">Vehicle Routing Problem</p>
               <div><p class="part_font_h2 mobile_margin">We developed the VRP algorithm to provide scheduling optimization services. This is the core of the back-end, which is interfaced with the development of server build and front-end interface.</p></div>
-              <img src="./img/TakeCareBus_pic02.png" alt="">
+              <img src="./img/optimized/TakeCareBus_pic02.png.webp" alt="" loading="lazy" decoding="async" style="aspect-ratio: auto 1548 / 876;">
             </div>
         </section>
 
@@ -92,7 +92,7 @@
         <section class="display_1">
           <p class="part_font_h0">Model Validation</p>
           <div><p class="part_font_h2">Set starting point of the vehicle and customize the routing conditions based on simulated order data to schedule the vehicle path. By repeatedly verifying results of the shortest distance path, the algorithm can flexibly apply to real traffic conditions</p>
-            <img src="./img/TakeCareBus_pic03.png" alt="">
+            <img src="./img/optimized/TakeCareBus_pic03.png.webp" alt="" loading="lazy" decoding="async" style="aspect-ratio: auto 3462 / 1954;">
         </section>
 
         <!--第二種版型款式-自訂款05-->
@@ -100,21 +100,21 @@
             <div class="display_2_05_intro">
               <p class="part_font_h0">Market Analysis</p>
               <div><p class="part_font_h2">We collected a large amount of data on the current scheduling service demands and competition of more than 20 related products in the Taiwanese market. The left figure shows product service types, and the bottom figure shows product feature offerings.</p></div>
-              <img style="margin-top: 2vw" src="./img/TakeCareBus_pic05.png" alt="">
+              <img style="margin-top: 2vw; aspect-ratio: auto 1204 / 957;" src="./img/optimized/TakeCareBus_pic05.png.webp" alt="" loading="lazy" decoding="async">
             </div>
-            <img src="./img/TakeCareBus_pic04.png" alt="">
+            <img src="./img/optimized/TakeCareBus_pic04.png.webp" alt="" loading="lazy" decoding="async" style="aspect-ratio: auto 1731 / 1863;">
         </section>
 
         <!--第一種版型款式-->
         <section class="display_1">
           <p class="part_font_h0">Frontend Development-System Framework</p>
           <div><p class="part_font_h2">We completed the integration through RESTful APIs. When transmitting data, we also use packet security encryption technology UXUI Design and add a key mechanism to prevent user data leakage and attacks.</p>
-            <img src="./img/TakeCareBus_pic06.png" alt="">
+            <img src="./img/optimized/TakeCareBus_pic06.png.webp" alt="" loading="lazy" decoding="async" style="aspect-ratio: auto 3515 / 2365;">
         </section>
 
         <!--第二種版型款式-自訂款04-->
         <section class="display_2_04 display_reverse">
-            <img src="./img/TakeCareBus_pic07.png" alt="">
+            <img src="./img/optimized/TakeCareBus_pic07.png.webp" alt="" loading="lazy" decoding="async" style="aspect-ratio: auto 2049 / 1627;">
             <div class="display_2_04_intro">
               <p class="display_2_01_title" style="color: white;">User Interface</p>
               <div><p class="part_font_h2 mobile_margin">The scheduling results are designed in the form of cards, using colors and icons to make a distinction, with the map panel on the left side to present the information at a glance.</p>
@@ -124,33 +124,34 @@
 
         <!--單純圖片款式-->
         <section style="margin-top: unset;" class="display_1">
-            <img style="padding-top: unset;" src="./img/TakeCareBus_pic08.png" alt="">
+            <img style="padding-top: unset;; aspect-ratio: auto 3462 / 2363;" src="./img/optimized/TakeCareBus_pic08.png.webp" alt="" loading="lazy" decoding="async">
         </section>
 
         <!--底下的footer-->
         <section class="works_footer">
           <div class="footer_links_part">
             <div class="works_footer_link" style="cursor:pointer;" onclick="location.href='./TaoyuanGo.html';">
-                <img src="./img/Onedegree_img_4.png" alt="" style="margin-right: 1vw;">
+                <img src="./img/Onedegree_img_4.png" alt="" style="margin-right: 1vw;; aspect-ratio: auto 62 / 58;" loading="lazy" decoding="async">
                 <div class="part_font_h2"><p style="padding-bottom: 1vw;">Prev (P)</p><p class="gray_intro">TaoyuanGo App Redesign</p></div>
             </div>
             <div class="works_footer_link" style="cursor:pointer;" onclick="location.href='./Aitify.html';">
                 <div class="part_font_h2" style="text-align: right;"><p style="padding-bottom: 1vw;">Next (N)</p><p class="gray_intro">Aitify-AI Image Generator Application</p></div>
-                <img src="./img/Onedegree_img_5.png" alt="" style="margin-left: 1vw;">
+                <img src="./img/Onedegree_img_5.png" alt="" style="margin-left: 1vw;; aspect-ratio: auto 62 / 58;" loading="lazy" decoding="async">
             </div>
           </div>
-          <div class="footer_img"><img src="./img/three_factors_2@2x.png" alt=""></div>
+          <div class="footer_img"><img src="./img/three_factors_2@2x.png" alt="" loading="lazy" decoding="async" style="aspect-ratio: auto 510 / 101;"></div>
           <div class="copyright"><p>© 2025 All rights Reserved. Design by Catherine Tsai</p></div>
         </section>
         </div>
-        
+
        </div>
 </div>
    <script>
-      AOS.init();
+      document.addEventListener('DOMContentLoaded', function () {
+        AOS.init();
+        document.querySelectorAll('img[loading=lazy]').forEach(function (img) { img.addEventListener('load', function () { AOS.refresh(); }); });
+      });
     </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-  <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 </body>
 </html>
