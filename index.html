@@ -8,19 +8,15 @@
      <!--插入字體-->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <!--引用css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--引用js-->
+    <script defer src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-    
 
     <title>Dimension</title>
 </head>
@@ -45,7 +41,7 @@
                      <li class="nav-item">
                        <a class="nav-link" href="https://drive.google.com/file/d/1_uqiI6tEZQ2dOonY4U6iFj4lLUOijayr/view?usp=sharing" target="_blank">Resume</a>
                       </li>
-                
+
                     </ul>
                   </div>
                 </div>
@@ -54,21 +50,21 @@
         <!--首頁標題-->
         <div class="pt animate__animated animate__zoomIn" id="pt">
             <p class="Font_Montserrat name " id="name">Catherine Tsai</p>
-            <img src="./img/portfolio_title.png" class="portfolio_title " id="portfolio_title">
+            <img src="./img/optimized/portfolio_title.png.webp" class="portfolio_title " id="portfolio_title" fetchpriority="high">
             <p class="next_hint floating">click here!</p>
             <input onclick="chagenext()" type="image" src="./img/next_page.png"  id="title_next_btn"/>
 
-           
+
         </div>
         <!--首頁碎塊-->
-        <img src="./img/block01.png" class="block01" id="block01">
-        <img src="./img/block02.png" class="block02" id="block02">
-        <img src="./img/block03.png" class="block03" id="block03">
-        <img src="./img/block04.png" class="block04" id="block04">
-        <img src="./img/block05.png" class="block05" id="block05">
+        <img src="./img/optimized/block01.png.webp" srcset="./img/optimized/block01.png.640.webp 640w, ./img/optimized/block01.png.1280.webp 1280w, ./img/optimized/block01.png.webp 2480w" sizes="100vw" class="block01" id="block01">
+        <img src="./img/optimized/block02.png.webp" srcset="./img/optimized/block02.png.640.webp 640w, ./img/optimized/block02.png.1280.webp 1280w, ./img/optimized/block02.png.webp 2480w" sizes="100vw" class="block02" id="block02">
+        <img src="./img/optimized/block03.png.webp" srcset="./img/optimized/block03.png.640.webp 640w, ./img/optimized/block03.png.1280.webp 1280w, ./img/optimized/block03.png.webp 2480w" sizes="100vw" class="block03" id="block03">
+        <img src="./img/optimized/block04.png.webp" srcset="./img/optimized/block04.png.640.webp 640w, ./img/optimized/block04.png.1280.webp 1280w, ./img/optimized/block04.png.webp 2480w" sizes="120vw" class="block04" id="block04">
+        <img src="./img/optimized/block05.png.webp" srcset="./img/optimized/block05.png.640.webp 640w, ./img/optimized/block05.png.1280.webp 1280w, ./img/optimized/block05.png.webp 2480w" sizes="100vw" class="block05" id="block05">
         <!--About-->
         <div class="about" id="about">
-                <img src="./img/w_self(2b)@2x.png" class="self_picture animate__animated" id="self_picture">
+                <img src="./img/optimized/w_self(2b)@2x.png.webp" class="self_picture animate__animated" id="self_picture">
 
                 <div class="f_container animate__animated" id="f_container">
                     <div class="word_about" id="word_about">
@@ -77,7 +73,7 @@
                         </div>
                         <div class="static-text" style="display: flex;">
                             <div>
-                                A 
+                                A
                             </div>
                             <div class="dynamic-text-wrapper" id="dynamic-text-wrapper"></div>
                         </div>
@@ -88,23 +84,23 @@
                             <div class="shape-ex11" onclick="location.href=
                             './works.html'"><p>Works</p></div>
                         </div>
-                        
+
                         <div class="s_btn_about">
                             <div class="arrow_about">→</div>
                             <div class="shape-ex12" onclick="location.href=
                             './about.html'"><p>About</p></div>
                         </div>
-             
+
                     </div>
                 </div>
         </div>
     </div>
     <!--滑鼠滾動block放大js-->
-    <script>   
+    <script>
         //偵測到block display變成none，就讓title置入淡出動畫，讓下一層物件出現
         var portfolio_title = document.getElementById("pt");
         const container=document.getElementById("container");
-        //block01                            
+        //block01
         const block01 = document.getElementById("block01");
         var Bwidth=40;
         var Bopacity=100;
@@ -154,7 +150,7 @@
 
         };
 
-        //block01                            
+        //block01
         block01.style.width = Bwidth+"%";
         block01.style.opacity=Bopacity+"%";
         block01.style.left=Bleft;
@@ -266,16 +262,16 @@
                 if(Bopacity05<80){
                     portfolio_title.classList.remove("animate__zoomIn");
                     portfolio_title.classList.add("animate__fadeOut");
-                    
+
                 }else{
                     portfolio_title.classList.add("animate__zoomIn");
                     portfolio_title.classList.remove("animate__fadeOut");
-                    
+
                 }
 
                 if(Bopacity05<20){
                     block05.style.display="none";
- 
+
                     self_picture.style.display="block";
                     self_picture.classList.remove("animate__fadeOut");
                     self_picture.classList.add("animate__flipInY");
@@ -292,24 +288,25 @@
                     f_container.classList.remove("animate__flipInX");
                     f_container.classList.add("animate__fadeOut");
                     pt.style.display="flex";
-                   
+
                 };
 
             }
         };
-        
-       
-        
+
+
+
 
 
         //打字機動畫特效
+        document.addEventListener('DOMContentLoaded', function () {
         var app = document.getElementById('dynamic-text-wrapper');
 
         var typewriter = new Typewriter(app, {
             loop: true
             });
-        
-        
+
+
 
     typewriter.typeString('Designer.')
         .pauseFor(2500)
@@ -320,11 +317,12 @@
         .typeString('<span style="color: #ffe877;">Podcaster!<span>')
         .pauseFor(2500)
         .start();
+        });
 
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-    
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 
-    
+
+
 </body>
 </html>

@@ -1,0 +1,164 @@
+[
+  {
+    "file": "about.html",
+    "width": 390,
+    "images": 4,
+    "failures": []
+  },
+  {
+    "file": "Aitify.html",
+    "width": 390,
+    "images": 50,
+    "failures": []
+  },
+  {
+    "file": "EmotionalOcean.html",
+    "width": 390,
+    "images": 14,
+    "failures": []
+  },
+  {
+    "file": "index.html",
+    "width": 390,
+    "images": 7,
+    "failures": []
+  },
+  {
+    "file": "TakeCareBus.html",
+    "width": 390,
+    "images": 13,
+    "failures": []
+  },
+  {
+    "file": "TaoyuanGo.html",
+    "width": 390,
+    "images": 17,
+    "failures": []
+  },
+  {
+    "file": "Template_Onedegree.html",
+    "width": 390,
+    "images": 8,
+    "failures": []
+  },
+  {
+    "file": "TUE.html",
+    "width": 390,
+    "images": 15,
+    "failures": []
+  },
+  {
+    "file": "works.html",
+    "width": 390,
+    "images": 8,
+    "failures": []
+  },
+  {
+    "file": "about.html",
+    "width": 768,
+    "images": 4,
+    "failures": []
+  },
+  {
+    "file": "Aitify.html",
+    "width": 768,
+    "images": 50,
+    "failures": []
+  },
+  {
+    "file": "EmotionalOcean.html",
+    "width": 768,
+    "images": 14,
+    "failures": []
+  },
+  {
+    "file": "index.html",
+    "width": 768,
+    "images": 7,
+    "failures": []
+  },
+  {
+    "file": "TakeCareBus.html",
+    "width": 768,
+    "images": 13,
+    "failures": []
+  },
+  {
+    "file": "TaoyuanGo.html",
+    "width": 768,
+    "images": 17,
+    "failures": []
+  },
+  {
+    "file": "Template_Onedegree.html",
+    "width": 768,
+    "images": 8,
+    "failures": []
+  },
+  {
+    "file": "TUE.html",
+    "width": 768,
+    "images": 15,
+    "failures": []
+  },
+  {
+    "file": "works.html",
+    "width": 768,
+    "images": 8,
+    "failures": []
+  },
+  {
+    "file": "about.html",
+    "width": 1440,
+    "images": 4,
+    "failures": []
+  },
+  {
+    "file": "Aitify.html",
+    "width": 1440,
+    "images": 50,
+    "failures": []
+  },
+  {
+    "file": "EmotionalOcean.html",
+    "width": 1440,
+    "images": 14,
+    "failures": []
+  },
+  {
+    "file": "index.html",
+    "width": 1440,
+    "images": 7,
+    "failures": []
+  },
+  {
+    "file": "TakeCareBus.html",
+    "width": 1440,
+    "images": 13,
+    "failures": []
+  },
+  {
+    "file": "TaoyuanGo.html",
+    "width": 1440,
+    "images": 17,
+    "failures": []
+  },
+  {
+    "file": "Template_Onedegree.html",
+    "width": 1440,
+    "images": 8,
+    "failures": []
+  },
+  {
+    "file": "TUE.html",
+    "width": 1440,
+    "images": 15,
+    "failures": []
+  },
+  {
+    "file": "works.html",
+    "width": 1440,
+    "images": 8,
+    "failures": []
+  }
+]
