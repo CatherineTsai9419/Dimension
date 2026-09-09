@@ -1,0 +1,1062 @@
+[
+  {
+    "name": "three_factors.png",
+    "width": 1996,
+    "height": 595,
+    "before": 1573938,
+    "after": 1067864,
+    "output": "img/optimized/three_factors.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "life_pic04.jpg",
+    "width": 2678,
+    "height": 3316,
+    "before": 1375990,
+    "after": 4682702,
+    "output": "img/optimized/life_pic04.jpg.webp",
+    "used": false,
+    "variants": []
+  },
+  {
+    "name": "logo(3000).jpg",
+    "width": 3000,
+    "height": 3000,
+    "before": 265668,
+    "after": 337066,
+    "output": "img/optimized/logo(3000).jpg.webp",
+    "used": false,
+    "variants": []
+  },
+  {
+    "name": "Aitify_banner 1.png",
+    "width": 4320,
+    "height": 1771,
+    "before": 5555146,
+    "after": 3471490,
+    "output": "img/optimized/Aitify_banner 1.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic02.png",
+    "width": 1176,
+    "height": 792,
+    "before": 1037631,
+    "after": 660838,
+    "output": "img/optimized/Aitify-pic02.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic06.png",
+    "width": 3469,
+    "height": 1931,
+    "before": 957760,
+    "after": 487198,
+    "output": "img/optimized/Aitify-pic06.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic07.png",
+    "width": 1138,
+    "height": 618,
+    "before": 402780,
+    "after": 268868,
+    "output": "img/optimized/Aitify-pic07.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic08.png",
+    "width": 1137,
+    "height": 614,
+    "before": 289126,
+    "after": 189158,
+    "output": "img/optimized/Aitify-pic08.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic09.png",
+    "width": 1137,
+    "height": 615,
+    "before": 353620,
+    "after": 238954,
+    "output": "img/optimized/Aitify-pic09.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic10.png",
+    "width": 1734,
+    "height": 1934,
+    "before": 138658,
+    "after": 50830,
+    "output": "img/optimized/Aitify-pic10.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic14.png",
+    "width": 1661,
+    "height": 457,
+    "before": 30185,
+    "after": 13486,
+    "output": "img/optimized/Aitify-pic14.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic15.png",
+    "width": 1660,
+    "height": 457,
+    "before": 35264,
+    "after": 15318,
+    "output": "img/optimized/Aitify-pic15.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic16.png",
+    "width": 1705,
+    "height": 918,
+    "before": 76089,
+    "after": 28200,
+    "output": "img/optimized/Aitify-pic16.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic17.png",
+    "width": 1705,
+    "height": 918,
+    "before": 67937,
+    "after": 26228,
+    "output": "img/optimized/Aitify-pic17.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic18.png",
+    "width": 1705,
+    "height": 918,
+    "before": 69847,
+    "after": 27258,
+    "output": "img/optimized/Aitify-pic18.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic19.png",
+    "width": 1705,
+    "height": 918,
+    "before": 74985,
+    "after": 27942,
+    "output": "img/optimized/Aitify-pic19.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic20.png",
+    "width": 3464,
+    "height": 1897,
+    "before": 2042590,
+    "after": 1190678,
+    "output": "img/optimized/Aitify-pic20.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic21.png",
+    "width": 3464,
+    "height": 1897,
+    "before": 2064329,
+    "after": 1205708,
+    "output": "img/optimized/Aitify-pic21.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic22.png",
+    "width": 3464,
+    "height": 1897,
+    "before": 2067065,
+    "after": 1198738,
+    "output": "img/optimized/Aitify-pic22.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic23.png",
+    "width": 3464,
+    "height": 3046,
+    "before": 1881875,
+    "after": 1130248,
+    "output": "img/optimized/Aitify-pic23.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic24.png",
+    "width": 280,
+    "height": 280,
+    "before": 77409,
+    "after": 54260,
+    "output": "img/optimized/Aitify-pic24.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic25.png",
+    "width": 280,
+    "height": 280,
+    "before": 68366,
+    "after": 49468,
+    "output": "img/optimized/Aitify-pic25.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic26.png",
+    "width": 280,
+    "height": 280,
+    "before": 62667,
+    "after": 45128,
+    "output": "img/optimized/Aitify-pic26.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic28.png",
+    "width": 3463,
+    "height": 2931,
+    "before": 2381589,
+    "after": 1392178,
+    "output": "img/optimized/Aitify-pic28.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic29.png",
+    "width": 3464,
+    "height": 1608,
+    "before": 113306,
+    "after": 34930,
+    "output": "img/optimized/Aitify-pic29.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic30.png",
+    "width": 1088,
+    "height": 1075,
+    "before": 280191,
+    "after": 150806,
+    "output": "img/optimized/Aitify-pic30.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic31.png",
+    "width": 1088,
+    "height": 1075,
+    "before": 684598,
+    "after": 419802,
+    "output": "img/optimized/Aitify-pic31.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic32.png",
+    "width": 1088,
+    "height": 1075,
+    "before": 794106,
+    "after": 525778,
+    "output": "img/optimized/Aitify-pic32.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic33.png",
+    "width": 1088,
+    "height": 1075,
+    "before": 150950,
+    "after": 78048,
+    "output": "img/optimized/Aitify-pic33.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic34.png",
+    "width": 1088,
+    "height": 1075,
+    "before": 633242,
+    "after": 391050,
+    "output": "img/optimized/Aitify-pic34.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic35.png",
+    "width": 1088,
+    "height": 1075,
+    "before": 959952,
+    "after": 648260,
+    "output": "img/optimized/Aitify-pic35.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic36.png",
+    "width": 2218,
+    "height": 875,
+    "before": 279097,
+    "after": 146430,
+    "output": "img/optimized/Aitify-pic36.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic37.png",
+    "width": 3487,
+    "height": 1279,
+    "before": 457157,
+    "after": 223410,
+    "output": "img/optimized/Aitify-pic37.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic38.png",
+    "width": 1935,
+    "height": 1406,
+    "before": 1881842,
+    "after": 1146602,
+    "output": "img/optimized/Aitify-pic38.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic39.png",
+    "width": 1241,
+    "height": 1102,
+    "before": 2365648,
+    "after": 1510346,
+    "output": "img/optimized/Aitify-pic39.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic40.png",
+    "width": 1381,
+    "height": 449,
+    "before": 47672,
+    "after": 21686,
+    "output": "img/optimized/Aitify-pic40.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Aitify-pic41.png",
+    "width": 3465,
+    "height": 1540,
+    "before": 3200479,
+    "after": 2070840,
+    "output": "img/optimized/Aitify-pic41.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "EmotionalOcean_banner.png",
+    "width": 4321,
+    "height": 1769,
+    "before": 7072968,
+    "after": 4464532,
+    "output": "img/optimized/EmotionalOcean_banner.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "EO-pic02.png",
+    "width": 1434,
+    "height": 313,
+    "before": 46953,
+    "after": 19778,
+    "output": "img/optimized/EO-pic02.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "EO-pic01.png",
+    "width": 1762,
+    "height": 1187,
+    "before": 711416,
+    "after": 404948,
+    "output": "img/optimized/EO-pic01.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "EO-pic03.png",
+    "width": 1720,
+    "height": 1859,
+    "before": 2856167,
+    "after": 1813700,
+    "output": "img/optimized/EO-pic03.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "EO-pic04.png",
+    "width": 1359,
+    "height": 800,
+    "before": 477993,
+    "after": 314338,
+    "output": "img/optimized/EO-pic04.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "EO-pic05.png",
+    "width": 1549,
+    "height": 1921,
+    "before": 1576434,
+    "after": 979222,
+    "output": "img/optimized/EO-pic05.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "EO-pic06.png",
+    "width": 3463,
+    "height": 1133,
+    "before": 1435907,
+    "after": 904640,
+    "output": "img/optimized/EO-pic06.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "EO-pic07.png",
+    "width": 3463,
+    "height": 2363,
+    "before": 3030753,
+    "after": 1918536,
+    "output": "img/optimized/EO-pic07.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "portfolio_title.png",
+    "width": 2406,
+    "height": 514,
+    "before": 85362,
+    "after": 36354,
+    "output": "img/optimized/portfolio_title.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "block01.png",
+    "width": 2480,
+    "height": 2480,
+    "before": 2563649,
+    "after": 1312192,
+    "output": "img/optimized/block01.png.webp",
+    "used": true,
+    "variants": [
+      {
+        "width": 640,
+        "file": "img/optimized/block01.png.640.webp",
+        "bytes": 210612
+      },
+      {
+        "width": 1280,
+        "file": "img/optimized/block01.png.1280.webp",
+        "bytes": 697796
+      }
+    ]
+  },
+  {
+    "name": "block02.png",
+    "width": 2480,
+    "height": 2480,
+    "before": 1487612,
+    "after": 963966,
+    "output": "img/optimized/block02.png.webp",
+    "used": true,
+    "variants": [
+      {
+        "width": 640,
+        "file": "img/optimized/block02.png.640.webp",
+        "bytes": 144704
+      },
+      {
+        "width": 1280,
+        "file": "img/optimized/block02.png.1280.webp",
+        "bytes": 488324
+      }
+    ]
+  },
+  {
+    "name": "block03.png",
+    "width": 2480,
+    "height": 2480,
+    "before": 459973,
+    "after": 290118,
+    "output": "img/optimized/block03.png.webp",
+    "used": true,
+    "variants": [
+      {
+        "width": 640,
+        "file": "img/optimized/block03.png.640.webp",
+        "bytes": 96634
+      },
+      {
+        "width": 1280,
+        "file": "img/optimized/block03.png.1280.webp",
+        "bytes": 303448
+      }
+    ]
+  },
+  {
+    "name": "block04.png",
+    "width": 2480,
+    "height": 2480,
+    "before": 2102307,
+    "after": 1395990,
+    "output": "img/optimized/block04.png.webp",
+    "used": true,
+    "variants": [
+      {
+        "width": 640,
+        "file": "img/optimized/block04.png.640.webp",
+        "bytes": 139762
+      },
+      {
+        "width": 1280,
+        "file": "img/optimized/block04.png.1280.webp",
+        "bytes": 554866
+      }
+    ]
+  },
+  {
+    "name": "block05.png",
+    "width": 2480,
+    "height": 2480,
+    "before": 2975441,
+    "after": 1940562,
+    "output": "img/optimized/block05.png.webp",
+    "used": true,
+    "variants": [
+      {
+        "width": 640,
+        "file": "img/optimized/block05.png.640.webp",
+        "bytes": 303404
+      },
+      {
+        "width": 1280,
+        "file": "img/optimized/block05.png.1280.webp",
+        "bytes": 1061180
+      }
+    ]
+  },
+  {
+    "name": "w_self(2b)@2x.png",
+    "width": 1514,
+    "height": 1871,
+    "before": 2014748,
+    "after": 1403300,
+    "output": "img/optimized/w_self(2b)@2x.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TakeCareBus_banner.png",
+    "width": 4320,
+    "height": 1769,
+    "before": 3454385,
+    "after": 2070426,
+    "output": "img/optimized/TakeCareBus_banner.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TakeCareBus_pic01.png",
+    "width": 1720,
+    "height": 1877,
+    "before": 3527302,
+    "after": 2282564,
+    "output": "img/optimized/TakeCareBus_pic01.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TakeCareBus_pic02.png",
+    "width": 1548,
+    "height": 876,
+    "before": 96078,
+    "after": 40368,
+    "output": "img/optimized/TakeCareBus_pic02.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TakeCareBus_pic03.png",
+    "width": 3462,
+    "height": 1954,
+    "before": 3499154,
+    "after": 2059116,
+    "output": "img/optimized/TakeCareBus_pic03.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TakeCareBus_pic05.png",
+    "width": 1204,
+    "height": 957,
+    "before": 44909,
+    "after": 19070,
+    "output": "img/optimized/TakeCareBus_pic05.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TakeCareBus_pic04.png",
+    "width": 1731,
+    "height": 1863,
+    "before": 591764,
+    "after": 320564,
+    "output": "img/optimized/TakeCareBus_pic04.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TakeCareBus_pic06.png",
+    "width": 3515,
+    "height": 2365,
+    "before": 3878149,
+    "after": 2355848,
+    "output": "img/optimized/TakeCareBus_pic06.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TakeCareBus_pic07.png",
+    "width": 2049,
+    "height": 1627,
+    "before": 1639318,
+    "after": 1053418,
+    "output": "img/optimized/TakeCareBus_pic07.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TakeCareBus_pic08.png",
+    "width": 3462,
+    "height": 2363,
+    "before": 6258627,
+    "after": 3705156,
+    "output": "img/optimized/TakeCareBus_pic08.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_banner.png",
+    "width": 4321,
+    "height": 1769,
+    "before": 4656043,
+    "after": 2635846,
+    "output": "img/optimized/TaoyuanGo_banner.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic02.png",
+    "width": 1411,
+    "height": 585,
+    "before": 64283,
+    "after": 26464,
+    "output": "img/optimized/TaoyuanGo_pic02.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic01.png",
+    "width": 1763,
+    "height": 1836,
+    "before": 1066925,
+    "after": 583214,
+    "output": "img/optimized/TaoyuanGo_pic01.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic03.png",
+    "width": 3463,
+    "height": 2003,
+    "before": 1773896,
+    "after": 1018188,
+    "output": "img/optimized/TaoyuanGo_pic03.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic04.png",
+    "width": 3302,
+    "height": 1539,
+    "before": 200903,
+    "after": 80080,
+    "output": "img/optimized/TaoyuanGo_pic04.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic05.png",
+    "width": 3463,
+    "height": 1897,
+    "before": 2494012,
+    "after": 1459934,
+    "output": "img/optimized/TaoyuanGo_pic05.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic07.png",
+    "width": 1411,
+    "height": 705,
+    "before": 80886,
+    "after": 33286,
+    "output": "img/optimized/TaoyuanGo_pic07.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic06.png",
+    "width": 1727,
+    "height": 2046,
+    "before": 243465,
+    "after": 111764,
+    "output": "img/optimized/TaoyuanGo_pic06.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic08.png",
+    "width": 3613,
+    "height": 1485,
+    "before": 1372999,
+    "after": 666082,
+    "output": "img/optimized/TaoyuanGo_pic08.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic09.png",
+    "width": 3463,
+    "height": 2090,
+    "before": 1888415,
+    "after": 1124664,
+    "output": "img/optimized/TaoyuanGo_pic09.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic10.png",
+    "width": 3463,
+    "height": 2093,
+    "before": 2704528,
+    "after": 1643938,
+    "output": "img/optimized/TaoyuanGo_pic10.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic11.png",
+    "width": 3463,
+    "height": 2362,
+    "before": 2603937,
+    "after": 1541762,
+    "output": "img/optimized/TaoyuanGo_pic11.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TaoyuanGo_pic12.png",
+    "width": 3463,
+    "height": 2363,
+    "before": 6999593,
+    "after": 4161316,
+    "output": "img/optimized/TaoyuanGo_pic12.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Onedegree_banner 1.png",
+    "width": 1441,
+    "height": 590,
+    "before": 391906,
+    "after": 236632,
+    "output": "img/optimized/Onedegree_banner 1.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Onedegree_img_1.png",
+    "width": 3457,
+    "height": 1567,
+    "before": 815222,
+    "after": 512280,
+    "output": "img/optimized/Onedegree_img_1.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Onedegree_img_2.png",
+    "width": 1709,
+    "height": 1918,
+    "before": 607806,
+    "after": 339384,
+    "output": "img/optimized/Onedegree_img_2.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Onedegree_img_3.png",
+    "width": 3465,
+    "height": 1606,
+    "before": 2041528,
+    "after": 1315482,
+    "output": "img/optimized/Onedegree_img_3.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TUE_banner.png",
+    "width": 4320,
+    "height": 1768,
+    "before": 2949486,
+    "after": 1725178,
+    "output": "img/optimized/TUE_banner.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TUE_pic01.png",
+    "width": 3457,
+    "height": 1647,
+    "before": 8283534,
+    "after": 5190404,
+    "output": "img/optimized/TUE_pic01.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TUE_pic02.png",
+    "width": 1546,
+    "height": 1741,
+    "before": 4992482,
+    "after": 3252278,
+    "output": "img/optimized/TUE_pic02.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TUE_pic03.png",
+    "width": 1721,
+    "height": 1289,
+    "before": 3718875,
+    "after": 2426588,
+    "output": "img/optimized/TUE_pic03.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TUE_pic04.png",
+    "width": 3457,
+    "height": 1958,
+    "before": 10833358,
+    "after": 6967744,
+    "output": "img/optimized/TUE_pic04.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TUE_pic05.png",
+    "width": 1729,
+    "height": 1686,
+    "before": 1024659,
+    "after": 608232,
+    "output": "img/optimized/TUE_pic05.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TUE_pic06.png",
+    "width": 1551,
+    "height": 2068,
+    "before": 5004155,
+    "after": 3249648,
+    "output": "img/optimized/TUE_pic06.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TUE_pic07.png",
+    "width": 3458,
+    "height": 1678,
+    "before": 3012665,
+    "after": 1707908,
+    "output": "img/optimized/TUE_pic07.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TUE_pic08.png",
+    "width": 1728,
+    "height": 1296,
+    "before": 5948059,
+    "after": 4177604,
+    "output": "img/optimized/TUE_pic08.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "TUE_pic09.png",
+    "width": 1960,
+    "height": 1387,
+    "before": 4818332,
+    "after": 3094532,
+    "output": "img/optimized/TUE_pic09.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "Banner_02.png",
+    "width": 5751,
+    "height": 5751,
+    "before": 4319676,
+    "after": 2993156,
+    "output": "img/optimized/Banner_02.png.webp",
+    "used": true,
+    "variants": [
+      {
+        "width": 480,
+        "file": "img/optimized/Banner_02.png.480.webp",
+        "bytes": 129784
+      },
+      {
+        "width": 960,
+        "file": "img/optimized/Banner_02.png.960.webp",
+        "bytes": 453706
+      },
+      {
+        "width": 1920,
+        "file": "img/optimized/Banner_02.png.1920.webp",
+        "bytes": 1461948
+      }
+    ]
+  },
+  {
+    "name": "Banner_03.png",
+    "width": 5751,
+    "height": 5751,
+    "before": 3576038,
+    "after": 2189928,
+    "output": "img/optimized/Banner_03.png.webp",
+    "used": true,
+    "variants": [
+      {
+        "width": 480,
+        "file": "img/optimized/Banner_03.png.480.webp",
+        "bytes": 149538
+      },
+      {
+        "width": 960,
+        "file": "img/optimized/Banner_03.png.960.webp",
+        "bytes": 411124
+      },
+      {
+        "width": 1920,
+        "file": "img/optimized/Banner_03.png.1920.webp",
+        "bytes": 1132192
+      }
+    ]
+  },
+  {
+    "name": "TaoyuanGo_App_2023@4x.png",
+    "width": 1917,
+    "height": 1917,
+    "before": 1667234,
+    "after": 1022242,
+    "output": "img/optimized/TaoyuanGo_App_2023@4x.png.webp",
+    "used": true,
+    "variants": [
+      {
+        "width": 480,
+        "file": "img/optimized/TaoyuanGo_App_2023@4x.png.480.webp",
+        "bytes": 102742
+      },
+      {
+        "width": 960,
+        "file": "img/optimized/TaoyuanGo_App_2023@4x.png.960.webp",
+        "bytes": 333708
+      }
+    ]
+  },
+  {
+    "name": "Onedegree_img_0.png",
+    "width": 5752,
+    "height": 5751,
+    "before": 3564587,
+    "after": 1880832,
+    "output": "img/optimized/Onedegree_img_0.png.webp",
+    "used": true,
+    "variants": []
+  },
+  {
+    "name": "website_work_eo@4x-8.png",
+    "width": 1917,
+    "height": 1917,
+    "before": 1941867,
+    "after": 1597180,
+    "output": "img/optimized/website_work_eo@4x-8.png.webp",
+    "used": true,
+    "variants": [
+      {
+        "width": 480,
+        "file": "img/optimized/website_work_eo@4x-8.png.480.webp",
+        "bytes": 143200
+      },
+      {
+        "width": 960,
+        "file": "img/optimized/website_work_eo@4x-8.png.960.webp",
+        "bytes": 660610
+      }
+    ]
+  },
+  {
+    "name": "TakeCareBus@4x.png",
+    "width": 1917,
+    "height": 1917,
+    "before": 1714188,
+    "after": 1053472,
+    "output": "img/optimized/TakeCareBus@4x.png.webp",
+    "used": true,
+    "variants": [
+      {
+        "width": 480,
+        "file": "img/optimized/TakeCareBus@4x.png.480.webp",
+        "bytes": 116646
+      },
+      {
+        "width": 960,
+        "file": "img/optimized/TakeCareBus@4x.png.960.webp",
+        "bytes": 373562
+      }
+    ]
+  }
+]
